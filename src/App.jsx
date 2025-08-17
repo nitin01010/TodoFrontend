@@ -71,7 +71,7 @@ const App = () => {
   }
 
   return (
-    <div className=' bg-gray-100 shadow-2xl  mt-10 P-2 rounded p-5 w-full  md:w-[70%] m-auto '>
+    <div className=' bg-gray-100 shadow-2xl  mt-10  rounded p-5 w-full  md:w-[70%] m-auto '>
       <h1 className=' text-center text-xl font-bold'>Todo Appliction</h1>
       <div className=" flex flex-col mt-10">
         {error ? <p className=" py-2 px-1 text-red-600">Please enter a valid task</p> : null}
